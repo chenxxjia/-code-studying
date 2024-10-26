@@ -11,6 +11,6 @@ int main()
     if (c>max)
     max=c;
     printf("输出的最大整数max=%d",max);
-    return=0;
+    return 0;
 
 }
