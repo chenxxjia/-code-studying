@@ -1,16 +1,103 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>             /*编程第一步*/
+#include <stdlib.h>
+
 int main()
 {
-    int a, b, c, max;   //找出任意三个数的最大值
-    printf("请输入三个整数:\n");
-    scanf("%d%d%d",&a,&b,&c);
-    if (a>b)
-    max=a;
-    else max=b;
-    if (c>max)
-    max=c;
-    printf("输出的最大整数max=%d",max);
+    printf("Hello world!\n");
     return 0;
-
 }
+
+
+#include<stdio.h>             /*任意三个数中找出最大值*/
+#include<stdlib.h>
+
+int main()
+{
+    int a,b,c,max;             
+    printf("请输入三个整数:");
+    scanf("%d%d%d",&a, &b, &c);
+    if(a>b)
+        max=a;
+    else max=b;
+    if(max<c)
+        max=c;
+    printf("最大整数:max=%d\n",max);
+    return 0;
+}
+
+
+#include<stdio.h>          /*求1000以内自然数的3的倍数的和*/
+#include<stdlib.h>
+
+int main()
+{
+    int sum=0, i=3; 
+    while(i<=1000){
+        sum+=i;
+        i=i+3;
+    }
+    printf("3+6+9+...+999=%d\n",sum);
+    return 0;
+}
+
+
+
+#include<stdio.h>            /*计算100以内整数之和*/
+#include<stdlib.h>
+
+int main()
+{
+    int sum=0, i=1;   
+    while(i<=100){
+        sum+=i;
+        i++;
+    }
+    printf("1+2+3+...+100=%d\n",sum);
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
