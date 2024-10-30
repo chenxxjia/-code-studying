@@ -8,6 +8,17 @@ int main()
 }
 
 
+#include<stdio.h>          /*简单加法运算*/
+int main()
+{
+    int a,b,c;
+    scanf("%d%d",&a,&b);
+    c=a+b;
+    printf("a+b=%d\n",c);
+    return 0;
+}
+
+
 #include<stdio.h>             /*任意三个数中找出最大值*/
 #include<stdlib.h>
 
@@ -72,7 +83,7 @@ int main()
 }
 
 
-#include<stdio.h>   /*根据学生成绩做出五段评价*/
+#include<stdio.h>         /*根据学生成绩做出五段评价*/
 #include<stdlib.h>
 
 int main()
@@ -116,7 +127,16 @@ int main()
 
 
 
-
+#include<stdio.h>   /*用getchar()和scanf实现字符的输入*/
+int main()
+{
+    char c1,c2;
+    c1=getchar();
+    scanf("%c",&c2);
+    putchar(c1);
+    putchar(c2);
+    return 0;
+}
 
 
 
