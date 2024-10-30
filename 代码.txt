@@ -94,7 +94,25 @@ int main()
 }
 
 
+#include<stdio.h>     /*找出10个数中最大值*/
+#include<stdlib.h>
+#define N 10
 
+int main()
+{
+    int i,num,max;
+    printf("请输入第1个整数:");
+    scanf("%d",&num);
+    max=num;
+    for (i=2;i<=10;i++){
+        printf("请输入第%d个整数:",i);
+        scanf("%d",&num);
+        if(num>max) max=num;
+        printf("当前最大整数是:%d\n",max);
+    }
+    printf("\n最大整数max=%d\n",max);
+    return 0;
+}
 
 
 
